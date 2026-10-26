@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Робота з DOM</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      
+
+      <section>
+        <h2>1. Текст кнопки</h2>
+        <label for="button-text">Текст для кнопки:</label>
+        <input id="button-text" type="text" value="DOM у дії" />
+        <button id="text-button" type="button">Початковий текст</button>
+      </section>
+
+      <section>
+        <h2>2. Зміна зображення</h2>
+        <h3>Нове зображення після виконання JavaScript</h3>
+        <img
+          id="change-image"
+          src="assets/flower.svg"
+          alt="Квітка"
+          width="240"
+          height="160"
+        />
+      </section>
+
+      <section>
+        <h2>3. Посилання та атрибут alt</h2>
+        <a id="image-link" href="#">
+          <img
+            id="linked-image"
+            src="assets/flower.svg"
+            width="240"
+            height="160"
+          />
+        </a>
+      </section>
+
+      <section>
+        <h2>4. Зміна першого елемента списку</h2>
+        <ul id="demo-list">
+          <li>Початковий елемент</li>
+          <li>Другий елемент</li>
+          <li>Третій елемент</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
